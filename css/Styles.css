@@ -56,11 +56,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--letragris);
 }
-.data:hover{
+.data:hover .data:focus{
     text-decoration: underline ;
     color: var(--azul);
 }
-button:hover {
+button:hover button:focus {
     color: var(--fondoprimario);
     background-color: var(--azul);
     border: none;
@@ -71,7 +71,7 @@ button:hover {
 .section-Title {
     background-color: var(--Fondooscuro);
     font-weight: 900;
-    font-size: 44px;
+    font-size: 44px;                    
     line-height: 1.3;
     letter-spacing: 0.06em;
     text-transform: uppercase;
