@@ -107,6 +107,9 @@ button:hover {
 }
 
 /* ----------Nuestro equipo---------- */
+.business{
+    background: var(--fondobotton);
+}
 .miembro-equipo{
     width: 270px;
     height: 368px;
