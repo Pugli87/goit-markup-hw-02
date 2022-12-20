@@ -23,7 +23,7 @@ body {
 
 /* ----------cabecera---------- */
 
-.select {
+.select { /*color de seleccion de pagina html*/
     color: var(--azul);
 }
 
