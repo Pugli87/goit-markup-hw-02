@@ -1,5 +1,5 @@
 body {
-    color: #212121;
+    color: var(--letraoscura);
     position: relative;
     width: 1600px;
     height: 2410px;
@@ -15,6 +15,7 @@ body {
     --azul: #2196F3;
     --letragris: #757575;
     --fondobotton: #F5F4FA;
+    --letraoscura:#212121;
 }
 
 
@@ -49,6 +50,8 @@ body {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+.link:link{
     color: var(--coloroscuro);
 }
 
