@@ -6,12 +6,15 @@ body {
     background:var(--fondoprimario);
     font-family: "roboto",sans-serif;
     font-style: normal;
+    
 }
 
 :root {
     --fondoprimario: #ffffff;
     --coloroscuro: #2F303A;
     --azul: #2196F3;
+    --letragris: #757575;
+    --fondobotton: #F5F4FA;
 }
 
 
@@ -54,7 +57,7 @@ body {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--letragris);
 }
 .data:hover{
     text-decoration: underline ;
@@ -62,7 +65,7 @@ body {
 }
 button:hover {
     color: var(--fondoprimario);
-    background-color: rgb(53, 157, 241);
+    background-color: var(--azul);
     border: none;
     border-radius: 4px;
 }
@@ -83,7 +86,7 @@ button:hover {
 
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--fondoprimario);
 }
 
 .button-index {
@@ -103,7 +106,7 @@ button:hover {
     padding: 10px 32px;
     border: none;
     border-radius: 4px;
-    background: #F5F4FA
+    background: var(--fondobotton)
 }
 
 /* Seccion caracteristicas */
@@ -119,7 +122,6 @@ button:hover {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 
 .description{
@@ -135,7 +137,7 @@ button:hover {
     line-height: 1.7;
     /* or 171% */
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--letragris);
 }
 
 /* Nuestro equipo */
@@ -154,7 +156,7 @@ button:hover {
     height: 368px;
     left: 208px;
     top: 1696px; 
-    background: #FFFFFF;
+    background: var(--fondoprimario);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -187,7 +189,7 @@ button:hover {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--letragris);
 }
 
 
@@ -208,7 +210,7 @@ button:hover {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--letragris);
 }
 .nav-footer:hover{
     text-decoration: underline;
@@ -225,7 +227,7 @@ button:hover {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--fondoprimario);
 }
 
 
@@ -240,7 +242,7 @@ button:hover {
     border: none;
     left: calc(50% - 128px/2 - 160px);
      top: calc(50% - 38px/2 - 735px); 
-    background: #F5F4FA;
+    background: var(--fondobotton);
     border-radius: 4px;
 }
 
@@ -268,8 +270,8 @@ button:hover {
     height: 404px;
     left: calc(50% - 370px/2 - 400px);
     top: calc(50% - 404px/2 - 464px);
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    background: var(--fondoprimario);
+    border: 1px solid var(--fondobotton);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -294,6 +296,6 @@ button:hover {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color:var(--letragris);
 
 }
