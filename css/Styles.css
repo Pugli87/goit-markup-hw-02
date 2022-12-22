@@ -1,11 +1,9 @@
 body {
     color: var(--letraoscura);
-    position: relative;
-    width: 1600px;
-    height: 2410px;
     background:var(--fondoprimario);
     font-family: "roboto",sans-serif;
     font-style: normal;   
+    font-size: 14px ;
 }
 
 :root {
