@@ -61,7 +61,6 @@ button:hover, button:active, button:focus{
 .nav-list-link:hover,.contact-list-link:hover,
 .nav-list-link:focus,.contact-list-link:focus,
 .footer-contact-list-item:focus {
-    /* text-decoration: underline ;  */
     color: var(--hover-color);
 }
 /* ----------Main---------- */
