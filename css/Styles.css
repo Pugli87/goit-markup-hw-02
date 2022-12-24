@@ -15,22 +15,21 @@ body {
     --hover-color:        #2196F3;
 }
 
-
-.list{
-    list-style: none;
+.nav-list,.contact-list,.Characters-list,.products-list,.team-list,.footer-contact-list,.briefcase-list{
+    list-style: none;   
 }
-a,button{
-    text-decoration: none; 
+button{
     cursor: pointer;
+}
+button:hover, button:active, button:focus{
+    text-shadow: 2px 2px 20px var(--background-color), 5px 5px 5px var(--body-color);
+}
+.nav-list-link, .contact-list-link, .logo, .footer-contact-list-item{
+    text-decoration: none;
 }
 
 /* ----------cabecera---------- */
-
-.link, .select:active{ /*color de seleccion de pagina html*/
-    color: var(--hover-color);
-}
-
-.logo{ 
+.logo {
     color: var(--hover-color);
     font-family: 'Raleway';
     font-style: normal;
@@ -41,50 +40,40 @@ a,button{
     letter-spacing: 0.03em;
 }
 
-.nav-link{
+.nav-list-link{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     align-items: center;
+    color: var(--body-color);
 }
 
-.nav-contact{  /* estilos de correo y telefono*/
+.select { /*color de seleccion de pagina html*/
+    color: var(--hover-color);
+}
+
+.contact-list-link{  /* estilos de correo y telefono*/
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--gray-color);
 }
-.nav-link:visited{
-    color: var(--body-color);
-}
-.nav-link:hover,.nav-contact:hover,
-.nav-link:focus,.nav-contact:focus {
+.nav-list-link:hover,.contact-list-link:hover,
+.nav-list-link:focus,.contact-list-link:focus,
+.footer-contact-list-item:focus {
     text-decoration: underline ;
     color: var(--hover-color);
 }
-.button-index {
-    padding: 10px 32px;
-    border: none;
-    border-radius: 4px;
-    background: var(--background-botton);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    letter-spacing: 0.06em;
-}
-button:hover,button:focus,button:active {
-    color: var(--background-1);
-    background-color: var(--hover-color);
-    border: none;
-    border-radius: 4px;
-}
-
 /* ----------Main---------- */
-.section-Title {
+
+/* seccion titulo */
+
+.section-title{
     text-align: center;
+    background: var(--background-2);
+}
+.page-title {
     color: var(--background-color);
-    background-color: var(--background-2);
     font-weight: 900;
     font-size: 44px;                    
     line-height: 1.3;
@@ -92,19 +81,36 @@ button:hover,button:focus,button:active {
     text-transform: uppercase;
 }
 
+.button-index {
+    padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+    color: var(--background-color);
+    background-color: var(--hover-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
 
+.name-section{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 /* ----------Seccion caracteristicas---------- */
 
-.title-characters{
-    width: 270px;
-    height: 16px;
+.characters-list-title{
+    font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.description{
+.charecters-list-text{
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -112,60 +118,40 @@ button:hover,button:focus,button:active {
 }
 
 /* ----------Nuestro equipo---------- */
-.business{
+.team{
     background: var(--background-botton);
 }
-.miembro-equipo{
-    width: 270px;
-    height: 368px;
-    left: 208px;
-    top: 1696px; 
-    background: var(--background-1);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14), 
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;   
-    margin: 10px;
+.team-list{
+    background: var(--background-1); 
 }
 
-/*  ----------Nombre del empleado--------- */
-.name-business{
+.team-list-img{
+    background-color: var(--background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
-/* ----------Cargo del empleado---------- */
-.position-business{
+.team-list-text{
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--gray-color);
 }
 
 
 /* ----------Footer---------- */
-.nav-footer{
+.footer-contact{
     background: var(--background-2);
-    padding: 60px;
 }
 
-.nav-footer-list{
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: var(--gray-color);
-}
-
-.nav-footer-list:hover,.nav-footer-list:focus{
-    text-decoration: underline;
-    color: var(--hover-color);
-}
-
-.nav-footer-dir{
+.footer-contact-list-dir {
     text-decoration: none;
     font-weight: 400;
     line-height: 1.2;
@@ -173,10 +159,23 @@ button:hover,button:focus,button:active {
     color: var(--background-color);
 }
 
-/*----------Portafolio----------*/
-/* ----------Botones portafolio---------- */
+.footer-contact-list-item{
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+}
 
-.button-briefcase {
+.footer-contact-list-item:hover,.footer-contact-list.item:focus{
+    text-decoration: underline;
+    color: var(--hover-color);
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/*----------Portafolio----------*/
+
+.briefcase-list-button {
     width: 128px;
     height: 38px;
     border: none;
@@ -186,25 +185,21 @@ button:hover,button:focus,button:active {
     border-radius: 4px;
 }
 
-.button-briefcase:hover {
+.briefcase-list-button:hover,.briefcase-list-button:focus {
     background: var(--hover-color);
 }
 
-/* ----------Cuerpo portafolio---------- */
-
-.container {
+.briefcase-list-item {
     margin: 30px;  
     box-sizing: border-box;
     width: 370px;
     height: 404px;
-    left: calc(50% - 370px/2 - 400px);
-    top: calc(50% - 404px/2 - 464px);
     background: var(--background-1);
     border: 1px solid var(--background-botton);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.name-container {
+.briefcase-list-title {
     width: 322px;
     height: 36px;
     font-weight: 700;
@@ -213,7 +208,7 @@ button:hover,button:focus,button:active {
     letter-spacing: 0.06em;
 }
 
-.description-contanier {
+.briefcase-list-text {
     width: 322px;
     height: 30px;
     font-size: 16px;
