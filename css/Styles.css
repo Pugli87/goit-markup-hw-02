@@ -81,7 +81,6 @@ button:hover, button:active, button:focus{
 }
 
 .button-index {
-    padding: 10px 32px;
     border: none;
     border-radius: 4px;
     color: var(--background-color);
@@ -166,7 +165,6 @@ button:hover, button:active, button:focus{
 }
 
 .footer-contact-list-item:hover,.footer-contact-list.item:focus{
-    text-decoration: underline;
     color: var(--hover-color);
 }
 
@@ -182,6 +180,12 @@ button:hover, button:active, button:focus{
     top: calc(50% - 38px/2 - 735px); 
     background: var(--background-botton);
     border-radius: 4px;
+    Font-weigth:500;
+Font-size: 16px;
+Line-heing: 1.2;
+Text-align: Center;
+Letter-spasing: 0.03em;
+
 }
 
 .briefcase-list-button:hover,.briefcase-list-button:focus {
@@ -189,18 +193,13 @@ button:hover, button:active, button:focus{
 }
 
 .briefcase-list-item {
-    margin: 30px;  
     box-sizing: border-box;
-    width: 370px;
-    height: 404px;
     background: var(--background-1);
     border: 1px solid var(--background-botton);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .briefcase-list-title {
-    width: 322px;
-    height: 36px;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -208,8 +207,6 @@ button:hover, button:active, button:focus{
 }
 
 .briefcase-list-text {
-    width: 322px;
-    height: 30px;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
