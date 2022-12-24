@@ -58,10 +58,10 @@ button:hover, button:active, button:focus{
     letter-spacing: 0.02em;
     color: var(--gray-color);
 }
-.nav-list-link:hover,.contact-list-link:hover,
-.nav-list-link:focus,.contact-list-link:focus,
+.contact-list-link:hover,.contact-list-link:hover,
+.contact-list-link:focus,.contact-list-link:focus,
 .footer-contact-list-item:focus {
-    text-decoration: underline ;
+     text-decoration: underline ; 
     color: var(--hover-color);
 }
 /* ----------Main---------- */
