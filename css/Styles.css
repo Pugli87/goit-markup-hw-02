@@ -181,6 +181,12 @@ button:hover, button:active, button:focus{
     top: calc(50% - 38px/2 - 735px); 
     background: var(--background-botton);
     border-radius: 4px;
+    Font-weigth:500;
+Font-size: 16px;
+Line-heing: 1.2;
+Text-align: Center;
+Letter-spasing: 0.03em;
+
 }
 
 .briefcase-list-button:hover,.briefcase-list-button:focus {
