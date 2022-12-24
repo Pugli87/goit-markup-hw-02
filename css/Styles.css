@@ -18,7 +18,7 @@ body {
 .nav-list,.contact-list,.Characters-list,.products-list,.team-list,.footer-contact-list,.briefcase-list{
     list-style: none;   
 }
-button{
+button,.briefcase-list-item{
     cursor: pointer;
 }
 button:hover, button:active, button:focus{
@@ -48,9 +48,9 @@ button:hover, button:active, button:focus{
     color: var(--body-color);
 }
 
-.select { /*color de seleccion de pagina html*/
+ .select { /*color de seleccion de pagina html*/
     color: var(--hover-color);
-}
+} 
 
 .contact-list-link{  /* estilos de correo y telefono*/
     font-weight: 500;
