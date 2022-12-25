@@ -1,4 +1,6 @@
 body {
+    /* width: 1600px;
+    height: 2410px; */
     font-size: 14px;
     font-family: "roboto", sans-serif;
     letter-spacing:  10px;
@@ -14,6 +16,17 @@ body {
     --background-2:       #2F303A;
     --hover-color:        #2196F3;
 }
+
+/* header, nav{
+display: inline-flex;
+}
+.nav-list{
+    display: inline-flex;
+}
+.contact-list{
+    display: inline-flex;
+} */
+
 
 .nav-list,.contact-list,.Characters-list,.products-list,.team-list,.footer-contact-list,.briefcase-list{
     list-style: none;   
@@ -69,6 +82,9 @@ button:hover, button:active, button:focus{
 } 
 
 /* ----------Main---------- */
+/* .products-list,.Characters-list,.team-list {
+    display: flex;
+} */
 
 /* seccion titulo */
 
@@ -125,6 +141,7 @@ button:hover, button:active, button:focus{
     background: var(--background-botton);
 }
 .team-list{
+    text-align: center;
     background: var(--background-1); 
 }
 
@@ -179,8 +196,8 @@ button:hover, button:active, button:focus{
 
 .briefcase-list-button {
     border: none;
-    left: calc(50% - 128px/2 - 160px);
-    top: calc(50% - 38px/2 - 735px); 
+    /* left: calc(50% - 128px/2 - 160px);
+    top: calc(50% - 38px/2 - 735px);  */
     background: var(--background-botton);
     border-radius: 4px;
     font-weight: 500;
@@ -188,7 +205,6 @@ button:hover, button:active, button:focus{
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-
 }
 
 .briefcase-list-button:hover,.briefcase-list-button:focus {
@@ -196,10 +212,10 @@ button:hover, button:active, button:focus{
 }
 
 .briefcase-list-item {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background: var(--background-1);
-    border: 1px solid var(--background-botton);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    /* border: 1px solid var(--background-botton);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
 }
 
 .briefcase-list-title {
