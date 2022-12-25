@@ -72,18 +72,20 @@ button:hover, button:active, button:focus{
     color: var(--gray-color);
 }
 
-.nav-list .nav-list-link:hover,.contact-list .contact-list-link:hover
-,.contact-list .contact-list-link:focus,
-.footer-contact .footer-contact-list-item:focus {
+.nav-list-link:hover,
+.nav-list-link:focus,
+.contact-list-link:hover,
+.contact-list-link:focus,
+.footer-contact-list-item:focus {
     color: var(--hover-color);
 }
- .nav-list .nav-list-link:focus {
+/* .nav-list-link:focus {
     color: var(--body-color);
-} 
+}  */
 
 /* ----------Main---------- */
 /* .products-list,.Characters-list,.team-list {
-    display: flex;
+    display: flex;      
 } */
 
 /* seccion titulo */
@@ -220,7 +222,7 @@ button:hover, button:active, button:focus{
 
 .briefcase-list-title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 18px;    
     line-height: 36px;
     letter-spacing: 0.06em;
 }
