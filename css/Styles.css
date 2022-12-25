@@ -27,8 +27,12 @@ display: inline-flex;
     display: inline-flex;
 } */
 
-
-.nav-list,.contact-list,.Characters-list,.products-list,.team-list,.footer-contact-list,.briefcase-list{
+.nav-list,
+.contact-list,
+.Characters-list,
+.products-list,.team-list,
+.footer-contact-list,
+.briefcase-list{
     list-style: none;   
 }
 button,.briefcase-list-item{
@@ -93,13 +97,13 @@ button:hover, button:active, button:focus{
 .section-title{
     text-align: center;
     background: var(--background-2);
+    letter-spacing: 0.06em;
 }
 .page-title {
     color: var(--background-color);
     font-weight: 900;
     font-size: 44px;                    
     line-height: 1.3;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
@@ -111,7 +115,7 @@ button:hover, button:active, button:focus{
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    letter-spacing: 0.06em;
+
 }
 
 .name-section{
@@ -124,23 +128,25 @@ button:hover, button:active, button:focus{
 
 /* ----------Seccion caracteristicas---------- */
 
+.Characters-list{
+    letter-spacing: 0.03em;
+}
+
 .characters-list-title{
     font-weight: 700;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .charecters-list-text{
-    font-weight: 400;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--gray-color);
 }
 
 /* ----------Nuestro equipo---------- */
 .team{
     background: var(--background-botton);
+    letter-spacing: 0.03em;
 }
 .team-list{
     text-align: center;
@@ -157,13 +163,11 @@ button:hover, button:active, button:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 
 .team-list-text{
     font-size: 16px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     color: var(--gray-color);
 }
 
@@ -171,20 +175,19 @@ button:hover, button:active, button:focus{
 /* ----------Footer---------- */
 .footer-contact{
     background: var(--background-2);
+    letter-spacing: 0.03em;
 }
 
 .footer-contact-list-dir {
     text-decoration: none;
     font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    line-height: 1.2;   
     color: var(--background-color);
 }
 
 .footer-contact-list-item{
     font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    line-height: 1.2; 
     color: var(--gray-color);
 }
 
@@ -204,7 +207,7 @@ button:hover, button:active, button:focus{
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -216,14 +219,14 @@ button:hover, button:active, button:focus{
 .briefcase-list-item {
     /* box-sizing: border-box; */
     background: var(--background-1);
-    /* border: 1px solid var(--background-botton);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
+    /* border: 1px solid var(--background-botton); */
+    /*box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
 }
 
 .briefcase-list-title {
     font-weight: 700;
     font-size: 18px;    
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
