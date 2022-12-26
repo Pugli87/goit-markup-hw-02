@@ -27,20 +27,13 @@ display: inline-flex;
     display: inline-flex;
 } */
 
-.nav-list,
-.contact-list,
-.Characters-list,
-.products-list,.team-list,
-.footer-contact-list,
-.briefcase-list{
+.list{
     list-style: none;   
 }
 button,.briefcase-list-item{
     cursor: pointer;
 }
-button:hover, button:active, button:focus{
-    text-shadow: 2px 2px 20px var(--background-color), 5px 5px 5px var(--body-color);
-}
+
 .logo,.nav-list-link, .contact-list-link, .footer-contact-list-item{
     text-decoration: none;
 }
@@ -115,7 +108,10 @@ button:hover, button:active, button:focus{
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
+}
 
+.button-index:hover, .button-index:active, .button-index:focus{
+    text-shadow: 2px 2px 20px var(--background-color), 5px 5px 5px var(--body-color);
 }
 
 .name-section{
@@ -200,6 +196,7 @@ button:hover, button:active, button:focus{
 /*----------Portafolio----------*/
 
 .briefcase-list-button {
+    font-family: inherit;
     border: none;
     /* left: calc(50% - 128px/2 - 160px);
     top: calc(50% - 38px/2 - 735px);  */
