@@ -205,6 +205,7 @@ display: inline-flex;
 
 .briefcase-list-button:hover,.briefcase-list-button:focus {
     background: var(--hover-color);
+    color: var(--background-color);
 }
 
 .briefcase-list-item {
